@@ -1,0 +1,31 @@
+{
+  "name": "RealtyRadar: Проверка недвижимости",
+  "version": "1.2",
+  "description": "Ускорьте процесс поиска и анализа объектов недвижимости на Avito, Циан и Домклик",
+  "icons": {
+        "128": "ic_zip.png"
+      },
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.avito.ru/*",
+        "http://*.avito.ru/*",
+
+        "https://*.cian.ru/*",
+        "http://*.cian.ru/*",
+
+        "https://*.realty.yandex.ru/*",
+        "http://*.realty.yandex.ru/*",
+
+        "https://*.domclick.ru/*",
+        "http://*.domclick.ru/*"
+      ],
+      "js": ["highcharts.js", "content.js"],
+      "css": ["loader.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
+
