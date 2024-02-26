@@ -22,7 +22,9 @@
 
 ## Взносы
 Взносы приветствуются. Если у вас есть какие-либо предложения или улучшения, не стесняйтесь создавать запрос на включение.
-Telegram: https://t.me/Yakipoly
-Задонатить: https://messenger.online.sberbank.ru/sl/1j9DmBH5HeV92zyXN
+
+[Мой telegram](https://t.me/Yakipoly)
+
+[Задонатить на развитие технологий](https://messenger.online.sberbank.ru/sl/1j9DmBH5HeV92zyXN)
 
 Не стесняйтесь обращаться, если вам понадобится дополнительная помощь с файлом README.md или любым другим аспектом проекта!
